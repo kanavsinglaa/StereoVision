@@ -29,7 +29,7 @@ Disparity Map | Depth Map
 Once we get the *disparities*, they are triangulated to gives us respective depths. From these depths we can form point clouds to depict the 3D scene. Read the report for in-depth understanding of how these clouds are constructed.
 
 Here is the point cloud computed from the result of basic block matching algorithm and the ones mentioned in the report:
-<h4>Clouds Constructed From Basic Block Matching</h4>
+<h4>Clouds Constructed From Basic Block Matching:</h4>
 
 Straight view | Rotated view
 :------------:|:--------------------:
@@ -38,7 +38,10 @@ Straight view | Rotated view
 
 Further noise filtering and smoothening can result in neater point clouds. More advanced algorithms such as stereoSGBM takes those improvements into account, resulting in well knitted point clouds.
 
-<h4>Cloud Constructed From Semi Global Block Matching</h4>
-![](Results/SGBM.gif)
+<h4>Cloud Constructed From Semi Global Block Matching:</h4>
+
+
+<img src="Results/SGBM.gif" width=400>
+
 
 3D scenes like this one can be constructed by using 2D images, giving mobile robots a sense of their environment. 
