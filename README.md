@@ -7,7 +7,7 @@ A detailed explanation of how this algorithm works is provided <a href="./Point-
 ## Results
 
 <h4>Input Image</h4>
-<img src="./code/left.png" />
+<img src="code/img0.png" width="200px" />
 This is an input image that comes from the camera on the left. This and almost identical right shifted image (from the right camera) are the imputs to the algorithmm.
 
 The algorithm initially streo implements blocks matching to match features and regions in both the pictures; which results in a *disparity* map. This is implemented by comparing the similarity of windows around the pixels to be compared, based on the windows matching corresponding pixels are matched. Have a look at the report to understand how the algorithm works in detail.
@@ -16,7 +16,7 @@ Using the disparities, we can then calculate the depth for each pixel.
 Here are the results for the matching, in the form of disparity and depth map.
 Disparity Map | Depth Map
 :------------:|:--------------------:
-![](./Results/Disparity_Map.png)|![](./Results/Depth_Map.png)
+![](Results/Disparity_map.png)|![](Results/Depth_map.png)
 ## Running
 
 ```bash
