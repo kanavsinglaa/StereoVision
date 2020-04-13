@@ -34,3 +34,11 @@ Here is the point cloud computed from the result of basic block matching algorit
 Straight view | Rotated view
 :------------:|:--------------------:
 ![](Results/PointCloud.png)|![](Results/PointCloud2.png)
+
+
+Further noise filtering and smoothening can result in neater point clouds. More advanced algorithms such as stereoSGBM takes those improvements into account, resulting in well knitted point clouds.
+
+<h4>Cloud Constructed From Semi Global Block Matching</h4>
+![](Results/SGBM.gif)
+
+3D scenes like this one can be constructed by using 2D images, giving mobile robots a sense of their environment. 
