@@ -20,5 +20,5 @@ Disparity Map | Depth Map
 ## Running
 
 ```bash
-    python3 main.py
+    main.py
 ```
