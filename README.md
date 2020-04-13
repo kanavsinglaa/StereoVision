@@ -7,7 +7,7 @@ A detailed explanation of how this algorithm works is provided <a href="./Point-
 ## Results
 
 <h4>Input Image</h4>
-<img src="code/img0.png" width="200px" />
+<img src="Code/img0.png" width=400>
 This is an input image that comes from the camera on the left. This and almost identical right shifted image (from the right camera) are the imputs to the algorithmm.
 
 
@@ -22,5 +22,5 @@ Disparity Map | Depth Map
 ## Running
 
 ```bash
-    python3 main.py
+    main.py
 ```
