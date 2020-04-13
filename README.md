@@ -24,3 +24,13 @@ Disparity Map | Depth Map
 ```bash
     main.py
 ```
+
+## Point clouds 
+Once we get the *disparities*, they are triangulated to gives us respective depths. From these depths we can form point clouds to depict the 3D scene. Read the report for in-depth understanding of how these clouds are constructed.
+
+Here is the point cloud computed from the result of basic block matching algorithm and the ones mentioned in the report:
+<h4>Clouds Constructed From Basic Block Matching</h4>
+
+Straight view | Rotated view
+:------------:|:--------------------:
+![](Results/PointCloud.png)|![](Results/PointCloud2.png)
