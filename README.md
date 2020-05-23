@@ -1,5 +1,5 @@
 # Stereo Point Cloud Generation
-This program used two images taken from cameras aligned on a horizon to create a 3D scene; a point cloud of the environment. This program intends to mimic how are eyes and brain work to provide depth to whatever you are see.
+This program used two images taken from cameras aligned on a horizon to create a 3D scene; a point cloud of the environment. This program intends to mimic how are eyes and brain work to provide depth to whatever you see.
 Code folder contains all the coding files, which will be needed.
 
 A detailed explanation of how this algorithm works is provided <a href="./Point-Clouds_from_StereoImages_report.pdf">here</a>.
