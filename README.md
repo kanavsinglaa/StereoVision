@@ -4,6 +4,7 @@ Code folder contains all the coding files, which will be needed.
 
 A detailed explanation of how this algorithm works is provided <a href="./Point-Clouds_from_StereoImages_report.pdf">here</a>.
 
+#### Please drop a star if you find this helpful or atleast mildly exciting ;)
 ## Results
 
 <h4>Input Image</h4>
